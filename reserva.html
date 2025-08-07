@@ -14,35 +14,41 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <h1 class="fs-5 mb-0"><a class="text-decoration-none fs-5 text-white me-3" href="./index.html">Shop
-                        Mart</a></h1>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./produtos.html">Produtos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contato.html">Contatos</a>
-                        </li>
-                    </ul>
-                    <button class="btn btn-secondary"><a href="./carrinho.html"
-                            class="text-white text-decoration-none">Carrinho <span
-                                class="badge text-secondary bg-white">2</span></a></button>
-                </div>
-            </div>
-        </nav>
-    </header>
+  <header class="py-3 container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+
+        <!-- Logo à esquerda -->
+        <a href="/" class="navbar-brand fs-5 mb-0"><img src="/logo.png" alt="" style="width: 125px;"></a>
+
+        <!-- Botão hamburguer para mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Conteúdo colapsável -->
+        <div class="collapse navbar-collapse justify-content-between align-items-center" id="mainNavbar">
+
+          <!-- Menu centralizado -->
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+            <li class="nav-item"><a href="#" class="nav-link px-3 link-secondary text-white">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-3 text-white">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-3 text-white">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-3 text-white">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-3 text-white">About</a></li>
+          </ul>
+
+          <!-- Botões à direita -->
+          <div class="d-flex ">
+            <!-- <button type="button" class="btn btn-outline-primary me-2">Login</button> -->
+            <button type="button" class="btn btn-close-dark bg-white">Reservas</button>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </header>
 
     <!--Corpo Reserva -->
 
@@ -120,44 +126,65 @@
     </script>
 
 
-    <div class="bg-dark d-flex justify-content-center">
-        <footer class="container row py-5 mt-5">
-            <div class="col-12 col-lg-3 mb-5">
-                <h3 class="text-white">Shop Mart</h3>
-                <p class="text-white">© 2021</p>
-            </div>
+  <div class="d-flex justify-content-center bg-red">
+    <footer class="container row py-5 mt-5">
+      <div class="col-12 col-lg-3 mb-5">
+        <img src="./logo.png" alt="" style="width: 150px;">
+        <p class="text-white">© 2021</p>
+      </div>
 
-            <div class="offset-lg-1 col-12 col-lg-3 mb-5 mt-">
-                <h4 class="text-white">Menu Alternativo</h4>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Produtos</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contato</a></li>
-                </ul>
-            </div>
+      <div class="offset-lg-1 col-12 col-lg-3 mb-5 mt-">
+        <h4 class="text-white">Menu Alternativo</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Home</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Cardápio</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Reservas</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Contato</a>
+          </li>
+        </ul>
+      </div>
 
-            <div class="col-12 col-lg-3 mb-5">
-                <h4 class="text-white">Redes Sociais</h4>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Instagram</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Facebook</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">X</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Linkedin</a></li>
-                </ul>
-            </div>
+      <div class="col-12 col-lg-3 mb-5">
+        <h4 class="text-white">Redes Sociais</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Instagram</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Facebook</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">X</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Linkedin</a>
+          </li>
+        </ul>
+      </div>
 
-            <div class="col-12 col-lg-2 mb-5">
-                <h4 class="text-white">Contato</h4>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">(21) 98654-8985</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">WhatsApp</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">suporte@shopmart.com.br</a>
-                    </li>
-                </ul>
-            </div>
-
-        </footer>
-    </div>
+      <div class="col-12 col-lg-2 mb-5">
+        <h4 class="text-white">Contato</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">(21) 98654-8985</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">WhatsApp</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">suporte@sabor&arte.com.br</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>
